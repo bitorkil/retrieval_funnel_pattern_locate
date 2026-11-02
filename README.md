@@ -1,11 +1,11 @@
-# ocrmdoc_jd028
+# retrieval_funnel_pattern_locate
 
 **用规则在OCR 文档理解工程师·检索召回的漏斗分析里定位可疑位置。**
 
-`ocrmdoc_jd028` —— 用一组明示的正则规则扫描输入，报告OCR 文档理解工程师·检索召回的漏斗分析相关的命中行与片段
+`retrieval_funnel_pattern_locate` —— 用一组明示的正则规则扫描输入，报告OCR 文档理解工程师·检索召回的漏斗分析相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`ocrmdoc_jd028.py` 拷走就能用
+- 单文件，`retrieval_funnel_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install bitorkil-ocrmdoc_jd028
+pip install bitorkil-retrieval_funnel_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-ocrmdoc_jd028 --help
+retrieval_funnel_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `ocrmdoc_jd028.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `retrieval_funnel_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ ocrmdoc_jd028 --help
 ## 用法
 
 ```bash
-python ocrmdoc_jd028.py --file input.txt
-python ocrmdoc_jd028.py --text "示例内容"
-python ocrmdoc_jd028.py --file input.txt --json
+python retrieval_funnel_pattern_locate.py --file input.txt
+python retrieval_funnel_pattern_locate.py --text "示例内容"
+python retrieval_funnel_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python ocrmdoc_jd028.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_ocrmdoc_jd028.py
+python test_retrieval_funnel_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_ocrmdoc_jd028.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/bitorkil/ocrmdoc_jd028>
+- GitHub 仓库：<https://github.com/bitorkil/retrieval_funnel_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_ocrmdoc_jd028.py
 bitorkil 做OCR 文档理解工程师·检索召回的漏斗分析相关的问题，方向对标阿里巴巴的初级OCR 文档理解工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://bitorkil.github.io>
-- 仓库：<https://github.com/bitorkil/ocrmdoc_jd028>
+- 仓库：<https://github.com/bitorkil/retrieval_funnel_pattern_locate>
 
 ## 许可
 
